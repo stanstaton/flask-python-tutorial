@@ -19,6 +19,8 @@ flask run
 
 ## Requirements:
 
+### Routes
+
 By the end of this, you should have ONE Flask app that implements the following routes:
 
 | METHOD | PATH | FUNCTIONALITY |
@@ -29,6 +31,8 @@ By the end of this, you should have ONE Flask app that implements the following 
 | POST | `/operators` | Enable user to enter new operators |
 
 
+### Database
+
 Your `operators` documents in Mongo should look something like this: 
 
 ```json
@@ -37,8 +41,25 @@ Your `operators` documents in Mongo should look something like this:
   "description": "Division that rounds down to the nearest integer. Also known as integer division.",
   "symbol": "//",
   "example": "3 // 2 == 1",
-  "uses": "A common situation we might see this operator is when we need to calcuate a list index, which will need to be a whole number. For example, perhaps we are trying to find the middle index of a list, but there are an even number of elements. In this case, we could use floor division to select the leftmost element in the list by default."
+  "uses": "A common situation we might see this operator is when we need to calcuate a 
+  list index, which will need to be a whole number. For example, perhaps we are trying to 
+  find the middle index of a list, but there are an even number of elements. In this case, 
+  we could use floor division to select the leftmost element in the list by default."
 }
 ```
 
+### Additional Requirements
+
+* Your site should have a `static` folder that includes a style.css with styling for your site. 
+* Your site should have a nav bar/header and footer that is present on every page.
+  * Navbar should include links to "Home", "Operators", and "Loops" pages
+
+
 ------------
+
+## Getting Started
+
+### Home Page
+
+This page 
+
