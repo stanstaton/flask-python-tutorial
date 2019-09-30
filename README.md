@@ -75,6 +75,14 @@ On this page, make at least 3 sections:
 
 #### GET route
 
-The operators page should have explanations on how to use three operators of your choice. You're welcome to snag the `floor division` one from above! This page should be **completely dynamic**, meaning all this info should be stored in a mongo database in a collection called `operators`. You can do a for loop in your template page to display a section for each operator.
+The operators page should have explanations on how to use three operators of your choice. You're welcome to snag the `floor division` one from above! This page should be **completely dynamic**, meaning all this info should be stored in a mongo database in a collection called `operators`. You can do a for loop in your template page to display a section for each operator. Show code snippets for examples of each of the operators.
 
 You should allow the user to create new operators to display on the page. You can put the form on the bottom of the same page that the operators are displayed on, or you can create a separate route to render the templates.
+
+#### POST route
+
+This route accepts form data that the user submits. You should validate this data before you put it into your database and if there is an issue you should send the user an error page or render some sort of error message.
+
+## Bonus
+
+Put your HTML and CSS skills to the test - figure out how to format your code snippets so they actually look like code. Or, at least format them so they're somewhat distinct from other text! 
