@@ -61,5 +61,5 @@ Your `operators` documents in Mongo should look something like this:
 
 ### Home Page
 
-This page 
+This page should include the Python logo and at least one other image. Luckily, we've already started you off with this image in the static folder of the repository. Try to make this page an appealing advertisement for your site!
 
