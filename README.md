@@ -1,6 +1,6 @@
 # Flask Python Tutorial
 
-Today we'll make a Flask-driven website that gives users a tutorial on basic Python concepts. We'll be doing this to practice concepts we've learned in class, such as 
+Today we'll make a Flask-driven website that gives users a tutorial on basic Python concepts. We'll be doing this to practice concepts we've learned in class, such as: 
 
 * Rendering templates, redirecting, and other routing
 * Passing variables to templates
@@ -8,6 +8,13 @@ Today we'll make a Flask-driven website that gives users a tutorial on basic Pyt
 * Parsing form data
 
 ## Deliverables
+
+To complete this assignment:
+
+* Fork and clone this repository!
+* Implement the requirements below
+* Push the changes to your own repository
+* Open a pull request against this repository
 
 For this assignment you will be creating ONE Flask app. Each problem listed below will direct you to create a route or feature within that app.
 
