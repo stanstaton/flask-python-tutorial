@@ -63,3 +63,18 @@ Your `operators` documents in Mongo should look something like this:
 
 This page should include the Python logo and at least one other image. Luckily, we've already started you off with this image in the static folder of the repository. Try to make this page an appealing advertisement for your site!
 
+### Loops Page
+
+On this page, make at least 3 sections: 
+
+* One section should explain how to do a basic for-in loop in Python (e.g., `for fruit in basket`)
+* One section should explain how to use a basic while loop and how to set up a boolean expression without making an endless loop.
+* The final section can be one of your choice - if you don't have another idea, you can tackle explaining `range` and the different options that can be provided or left out.
+
+### Operators Page
+
+#### GET route
+
+The operators page should have explanations on how to use three operators of your choice. You're welcome to snag the `floor division` one from above! This page should be **completely dynamic**, meaning all this info should be stored in a mongo database in a collection called `operators`. You can do a for loop in your template page to display a section for each operator.
+
+You should allow the user to create new operators to display on the page. You can put the form on the bottom of the same page that the operators are displayed on, or you can create a separate route to render the templates.
