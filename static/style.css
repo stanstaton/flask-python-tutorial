@@ -2,4 +2,44 @@ html,
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: mediumspringgreen;
+  font-size: 24px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.logo{
+  max-height: 20px;
+  width: auto;
+  float: left;
+}
+
+.loop-div {
+  /* width: 40%; */
+  background-color: lightgray;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
